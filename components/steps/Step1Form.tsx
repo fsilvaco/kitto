@@ -47,7 +47,7 @@ export function Step1Form() {
     setValue,
     formState: { errors },
   } = useForm<FormValues>({
-    // resolver: zodResolver(schema),
+    resolver: zodResolver(schema),
   });
 
   const selectedContentTypes = watch("contentTypes") ?? [];
