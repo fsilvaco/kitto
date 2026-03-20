@@ -40,8 +40,6 @@ export function Step2Templates() {
     }
   }
 
-  console.log(mediaKitData)
-
   return (
     <div className="space-y-8">
       <div className="text-center space-y-1">
@@ -107,7 +105,7 @@ export function Step2Templates() {
                       pointerEvents: "none",
                     }}
                   >
-                    {/* {renderTemplate(id)} */}
+                    {renderTemplate(id)}
                   </div>
                 </div>
 
